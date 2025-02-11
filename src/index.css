@@ -22,7 +22,7 @@
 
 @layer utilities {
   .glass {
-    @apply bg-white/80 backdrop-blur-lg border border-white/20 shadow-lg;
+    @apply bg-white/80 backdrop-blur-lg border border-primary-light/20 shadow-lg;
   }
 
   .glass-dark {
@@ -43,13 +43,14 @@
 }
 
 .nav-link {
-  @apply text-neutral-dark hover:text-primary transition-colors duration-200;
+  @apply text-primary hover:text-secondary transition-colors duration-200;
 }
 
 .btn-primary {
-  @apply px-6 py-3 bg-secondary text-white rounded-lg hover:bg-secondary-dark transition-colors duration-200;
+  @apply px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors duration-200;
 }
 
 .btn-secondary {
-  @apply px-6 py-3 bg-surface border border-secondary text-secondary rounded-lg hover:bg-surface-dark transition-colors duration-200;
+  @apply px-6 py-3 bg-secondary text-white rounded-lg hover:bg-secondary-dark transition-colors duration-200;
 }
+

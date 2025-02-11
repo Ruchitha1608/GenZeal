@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -26,19 +25,19 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#1A1F2C",
-          light: "#2A2F3C",
-          dark: "#0A0F1C",
+          DEFAULT: "#0EA5E9",
+          light: "#D3E4FD",
+          dark: "#0284C7",
         },
         secondary: {
-          DEFAULT: "#6E59A5",
-          light: "#7E69B5",
-          dark: "#5E4995",
+          DEFAULT: "#F97316",
+          light: "#FEC6A1",
+          dark: "#EA580C",
         },
         accent: {
-          DEFAULT: "#FDE1D3",
-          light: "#FEF1E3",
-          dark: "#EDD1C3",
+          DEFAULT: "#FEC6A1",
+          light: "#FFEDE4",
+          dark: "#FDA47C",
         },
         neutral: {
           DEFAULT: "#8E9196",
@@ -46,9 +45,9 @@ export default {
           dark: "#7E8186",
         },
         surface: {
-          DEFAULT: "#F1F0FB",
+          DEFAULT: "#F8FAFC",
           light: "#FFFFFF",
-          dark: "#E1E0EB",
+          dark: "#F1F5F9",
         },
       },
       borderRadius: {
