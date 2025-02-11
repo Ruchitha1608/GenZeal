@@ -7,7 +7,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-16">
       <HeroSection />
       <FeaturesSection />
       <TestimonialsSection />
